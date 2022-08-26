@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		E66A6F7528B81AE4003B431A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F7428B81AE4003B431A /* AppDelegate.swift */; };
-		E66A6F7728B81AE4003B431A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F7628B81AE4003B431A /* SceneDelegate.swift */; };
-		E66A6F7928B81AE4003B431A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F7828B81AE4003B431A /* ViewController.swift */; };
+		E66A6F7928B81AE4003B431A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F7828B81AE4003B431A /* MainViewController.swift */; };
 		E66A6F7C28B81AE4003B431A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66A6F7A28B81AE4003B431A /* Main.storyboard */; };
 		E66A6F7E28B81AE6003B431A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66A6F7D28B81AE6003B431A /* Assets.xcassets */; };
 		E66A6F8128B81AE6003B431A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66A6F7F28B81AE6003B431A /* LaunchScreen.storyboard */; };
+		E66A6F8928B81D6B003B431A /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F8828B81D6B003B431A /* CountriesViewController.swift */; };
+		E66A6F8B28B81D7E003B431A /* CountriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66A6F8A28B81D7E003B431A /* CountriesViewController.storyboard */; };
+		E66A6F8E28B81E29003B431A /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F8C28B81E29003B431A /* CountryTableViewCell.swift */; };
+		E66A6F8F28B81E29003B431A /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66A6F8D28B81E29003B431A /* CountryTableViewCell.xib */; };
+		E66A6F9428B81E86003B431A /* CountriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F9328B81E86003B431A /* CountriesModel.swift */; };
+		E66A6F9C28B83498003B431A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F9B28B83498003B431A /* NetworkHelper.swift */; };
+		E66A6F9E28B834FA003B431A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A6F9D28B834FA003B431A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E66A6F7128B81AE4003B431A /* WalmartChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A6F7428B81AE4003B431A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E66A6F7628B81AE4003B431A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E66A6F7828B81AE4003B431A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E66A6F7828B81AE4003B431A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E66A6F7B28B81AE4003B431A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E66A6F7D28B81AE6003B431A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66A6F8028B81AE6003B431A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E66A6F8228B81AE6003B431A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66A6F8828B81D6B003B431A /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		E66A6F8A28B81D7E003B431A /* CountriesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountriesViewController.storyboard; sourceTree = "<group>"; };
+		E66A6F8C28B81E29003B431A /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		E66A6F8D28B81E29003B431A /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		E66A6F9328B81E86003B431A /* CountriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesModel.swift; sourceTree = "<group>"; };
+		E66A6F9B28B83498003B431A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		E66A6F9D28B834FA003B431A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				E66A6F7428B81AE4003B431A /* AppDelegate.swift */,
-				E66A6F7628B81AE4003B431A /* SceneDelegate.swift */,
-				E66A6F7828B81AE4003B431A /* ViewController.swift */,
-				E66A6F7A28B81AE4003B431A /* Main.storyboard */,
+				E66A6F9D28B834FA003B431A /* Constants.swift */,
+				E66A6F9028B81E47003B431A /* Main View */,
+				E66A6F9128B81E54003B431A /* Countries */,
 				E66A6F7D28B81AE6003B431A /* Assets.xcassets */,
 				E66A6F7F28B81AE6003B431A /* LaunchScreen.storyboard */,
 				E66A6F8228B81AE6003B431A /* Info.plist */,
 			);
 			path = WalmartChallenge;
+			sourceTree = "<group>";
+		};
+		E66A6F9028B81E47003B431A /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				E66A6F7828B81AE4003B431A /* MainViewController.swift */,
+				E66A6F7A28B81AE4003B431A /* Main.storyboard */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		E66A6F9128B81E54003B431A /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				E66A6F8828B81D6B003B431A /* CountriesViewController.swift */,
+				E66A6F8A28B81D7E003B431A /* CountriesViewController.storyboard */,
+				E66A6F9528B81E8B003B431A /* Model */,
+				E66A6F9228B81E6E003B431A /* Views */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+		E66A6F9228B81E6E003B431A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E66A6F8C28B81E29003B431A /* CountryTableViewCell.swift */,
+				E66A6F8D28B81E29003B431A /* CountryTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E66A6F9528B81E8B003B431A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E66A6F9B28B83498003B431A /* NetworkHelper.swift */,
+				E66A6F9328B81E86003B431A /* CountriesModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66A6F8B28B81D7E003B431A /* CountriesViewController.storyboard in Resources */,
 				E66A6F8128B81AE6003B431A /* LaunchScreen.storyboard in Resources */,
 				E66A6F7E28B81AE6003B431A /* Assets.xcassets in Resources */,
 				E66A6F7C28B81AE4003B431A /* Main.storyboard in Resources */,
+				E66A6F8F28B81E29003B431A /* CountryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66A6F7928B81AE4003B431A /* ViewController.swift in Sources */,
+				E66A6F9C28B83498003B431A /* NetworkHelper.swift in Sources */,
+				E66A6F7928B81AE4003B431A /* MainViewController.swift in Sources */,
 				E66A6F7528B81AE4003B431A /* AppDelegate.swift in Sources */,
-				E66A6F7728B81AE4003B431A /* SceneDelegate.swift in Sources */,
+				E66A6F8928B81D6B003B431A /* CountriesViewController.swift in Sources */,
+				E66A6F9428B81E86003B431A /* CountriesModel.swift in Sources */,
+				E66A6F8E28B81E29003B431A /* CountryTableViewCell.swift in Sources */,
+				E66A6F9E28B834FA003B431A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
