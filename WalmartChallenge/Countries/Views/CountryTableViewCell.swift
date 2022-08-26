@@ -17,6 +17,11 @@ class CountryTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
 
+    /// Configuration method to display cell items
+    /// - Parameters:
+    ///   - countryLabel: Name string + Code string
+    ///   - codeLabel: Code string
+    ///   - capitalLabel: Capital string
     func configureCellElements(countryLabel: String, codeLabel: String, capitalLabel: String) {
         self.countryLabel.text = countryLabel
         self.codeLabel.text = codeLabel

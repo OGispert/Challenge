@@ -16,6 +16,9 @@ class CountriesViewController: UIViewController {
     private var countries = Countries()
     private var allCountries = Countries()
 
+
+    /// Method to get the instance of the view controller.
+    /// - Returns: CountriesViewController
     static func getInstance() -> CountriesViewController? {
         let storyboard = UIStoryboard(name: "CountriesViewController", bundle: nil)
         return storyboard.instantiateViewController(withIdentifier: "CountriesViewController") as? CountriesViewController
@@ -60,6 +63,7 @@ class CountriesViewController: UIViewController {
     }
 }
 
+// MARK: - UISearchBar delegate methods
 extension CountriesViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         let filteredCountries = self.allCountries
@@ -76,6 +80,7 @@ extension CountriesViewController: UISearchBarDelegate {
     }
 }
 
+// MARK: - TableView delegate methods
 extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
